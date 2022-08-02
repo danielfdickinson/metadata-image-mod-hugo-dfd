@@ -68,7 +68,6 @@ If you don't use a page bundle or ``assets``, the image can still be used, but c
 
 [For the demo we use a small custom CSS file](README-assets/sample.css)
 
-
 ### Image handling partials
 
 See [DFD Hugo image handling module](https://github.com/danielfdickinson/image-handling-mod-hugo-dfd) for more information.
