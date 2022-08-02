@@ -1,6 +1,6 @@
 # DFD Hugo metadata image module
 
-A Hugo module for handing metadata images (gathering from or adding to metadata).
+A Hugo module for handling metadata images (gathering from or adding to metadata).
 
 ## Status
 
