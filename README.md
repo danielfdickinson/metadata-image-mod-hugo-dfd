@@ -121,6 +121,27 @@ Gathering image metadata may also create an image for specifically for use with 
 | microformatOverlayTextStartX | _0_ | Start X position for description as overlay text |
 | microformatOverlayTextStartY | _0_ | Start Y position for description as overlay text |
 
+## Auto-generating 'social cards'
+
+``` yaml
+description: "Example of an auto-generated social card. Obviously can be much prettier."
+imageFeatured: "/light-blue-gradient-social-card.png"
+microformatTitleAsOverlayText: true
+microformatOverlayTitleStartX: 64
+microformatOverlayTitleStartY: 64
+microformatOverlayTitleColor: "#111"
+microformatDescriptionAsOverlayText: true
+microformatOverlayTextStartX: 24
+microformatOverlayTextStartY: 290
+microformatOverlayTextColor: "#222"
+imageFeaturedCardOnly: true
+headerTextOmit: false
+summaryTextOnly: true
+imageFeaturedGenAltPrefix: "Metadata image module"
+```
+
+![Light blue gradient with the title 'Social Card' and the text 'Example of an auto-generated social card. Obviously can be much prettier'](README-assets/light-blue-gradient-social-card_with_text.png)
+
 ## Contributions welcome
 
 If [your issue can't be found when searching both open and closed issues](https://github.com/danielfdickinson/metadata-image-mod-hugo-dfd/issues?q=is%3Aissue), please add it!
