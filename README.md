@@ -59,14 +59,10 @@ A Hugo module for handing metadata images (gather from or adding to metadata).
 
 ### Add the image
 
-1. Place your image in a [page bundle](https://gohugo.io/content-management/page-bundles/) (e.g. `cover-screenshot.png`) _[Note 8](#note-8)_
-2. OR under `assets` in your project root _[Note 9](#note-9)_
+1. Place your image in a [page bundle](https://gohugo.io/content-management/page-bundles/) (e.g. `cover-screenshot.png`)
+2. OR under `assets` in your project root
 
-If you don't use a page bundle or ``assets``, the image can still be used, but cannot be made responsive _[Note 10](#note-10)_
-
-### Add CSS to style the images
-
-[For the demo we use a small custom CSS file](README-assets/sample.css)
+If you don't use a page bundle or ``assets``, the image can still be used, but cannot be made responsive
 
 ### Image handling partials
 
@@ -78,8 +74,8 @@ See [DFD Hugo metadata module](https://github.com/danielfdickinson/metadata-mod-
 
 Metadata types that can be gathered are:
 
-* ``media-images`` A slice of maps (dictionaries) with image information for use in microformats and other metadata; images matched are the same as [featured images](#featured-images) above.
-* ``media-image`` A map (dictionary) with image information for the first image from ``media-images`` which corresponds to [featured image](#featured-image) above.
+* ``media-images`` A slice of maps (dictionaries) with image information for use in microformats and other metadata; images matched are the same as [featured images in the image handling module, above](#image-handling-partials) above.
+* ``media-image`` A map (dictionary) with image information for the first image from ``media-images`` which corresponds to [featured images in the image handling module, above](#image-handling-partials) above.
 
 Gathering image metadata may also create an image for specifically for use with microformats (see [for microformats](#for-microformats) , below).
 

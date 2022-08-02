@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8"{{ if $self_close }} /{{ end }}>
     <meta name="viewport" content="width=device-width, initial-scale=1"{{ if $self_close }} /{{ end }}>
-    {{ partial "helpers/head/head-basics.html" . -}}
+    {{- partial "helpers/head/head-basics.html" . -}}
     {{- partial "helpers/head/engines-bots.html" . -}}
     {{- partial "helpers/head/resources-pipes.html" . }}
     {{- partial "helpers/head/metadata.html" . -}}
