@@ -44,7 +44,7 @@
             {{- if reflect.IsMap . -}}
                 {{- $image := .imageResource -}}
                 {{- $link := .link -}}
-                {{- $alt := .alt | default (partial "helpers/lib/image-handling/generate-alt-text.html" $inPage)-}}
+                {{- $alt := .alt | default (partial "helpers/lib/image-handling/generate-alt-text.html" $inPage) -}}
                 {{- if $image -}}{{- /* If we have an image resource, process the image */ -}}
                     {{ $imageMap := partial "helpers/lib/image-handling/generate-images" (dict "page" $inPage "singleSize" true "image" . "width" $microformatWidth "height" $microformatHeight "convertMethod" $microformatSizingMethod "getRelative" false "imageOverlay" $microformatOverlayImage "textOverlay" $microformatOverlayText) -}}
                     {{ $finalImages = $finalImages | append (dict "image" $imageMap.fullImage "link" $imageMap.finalSrc "url" $imageMap.finalSrc "width" $imageMap.width "height" $imageMap.height "alt" $alt) -}}
