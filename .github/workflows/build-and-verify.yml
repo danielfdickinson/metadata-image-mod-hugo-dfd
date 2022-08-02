@@ -111,6 +111,7 @@ jobs:
           RCLONE_ONE_FILE_SYSTEM: "true"
           RCLONE_ERROR_ON_NO_TRANSFER: "true"
           RCLONE_SFTP_SKIP_LINKS: "true"
+          RCLONE_SFTP_KEY_FILE_PASS: "${{ secrets.DEPLOY_SFTP_KEY_PASS }}"
           RCLONE_SFTP_PORT: ${{ secrets.DEPLOY_SFTP_PORT }}
           RCLONE_SFTP_HOST: ${{ secrets.DEPLOY_SFTP_HOSTNAME }}
           RCLONE_SFTP_KEY_PEM: "${{ secrets.DEPLOY_SFTP_PRIVATE_KEY }}"
