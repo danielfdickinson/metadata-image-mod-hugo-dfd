@@ -6,7 +6,7 @@ author: Daniel F. Dickinson
 tags:
     - images
     - metadata
-description: "Example of an auto-generated social card. Obviously can be much prettier."
+description: "Example of an auto-generated social card. Obviously can be much \"prettier\"."
 imageFeatured: "/light-blue-gradient-social-card.png"
 microformatTitleAsOverlayText: true
 microformatOverlayTitleStartX: 64
@@ -20,6 +20,10 @@ imageFeaturedCardOnly: true
 headerTextOmit: false
 summaryTextOnly: true
 imageFeaturedGenAltPrefix: "Metadata image module"
+imageLinkFull: true
+imageAltAsCaption: true
+imageMarkdownAddWrapper: true
+imageAddWrapper: span
 ---
 
 ## Auto-generated 'social card' image
