@@ -59,6 +59,7 @@
     ],
     "rules": {
         "svg-focusable": "off",
-        "require-sri": "off"
+        "require-sri": "off",
+        "no-trailing-whitespace": "off"
     }
 }
