@@ -1,3 +1,4 @@
+{{- partial "page-extra-bottom" . }}
 {{- $images := partial "helpers/lib/metadata/gather-media-images" .Page -}}
 {{- $images = partial "helpers/lib/microformats/generate-microformat-images" (dict "page" .Page "images" $images) -}}
 {{- with $images -}}
