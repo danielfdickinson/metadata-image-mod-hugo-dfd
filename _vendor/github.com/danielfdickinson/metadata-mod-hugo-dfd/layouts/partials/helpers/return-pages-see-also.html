@@ -1,0 +1,5 @@
+{{- /* Use Hugo's related content function */ -}}
+{{- $numRelated := .Page.Params.metadataNumSeeAlso | default .Page.Site.Params.metadataNumSeeAlso | default 10 -}}
+{{- $related := .Site.Pages.Related . | first $numRelated -}}
+{{- return $related -}}
+{{- /* Remove trailing whitespace */ -}}

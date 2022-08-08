@@ -1,0 +1,6 @@
+{{- $seeAlso := (slice) -}}
+{{- $seeAlsoPages := partial "helpers/return-pages-see-also" . -}}
+{{- range $seeAlsoPages -}}
+    {{- $seeAlso = $seeAlso | append .Permalink -}}
+{{- end -}}
+{{- return $seeAlso -}}

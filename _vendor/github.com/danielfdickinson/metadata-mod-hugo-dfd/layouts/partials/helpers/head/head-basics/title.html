@@ -1,0 +1,6 @@
+{{- $page_title_metadata := partial "helpers/return-metadata" (dict "page" .Page "requestedData" (slice "title-page" "title-site")) }}
+    <title>
+    {{- index $page_title_metadata "title-page" }}
+    {{- if lt (len ((printf "%s | %s" (index $page_title_metadata "title-page") (index $page_title_metadata "title-site")) | htmlEscape)) 70 }} | {{ index $page_title_metadata "title-site" -}}{{ end -}}
+    </title>
+{{- /* Remove trailing newlines */ -}}
