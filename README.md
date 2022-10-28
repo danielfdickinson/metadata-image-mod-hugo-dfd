@@ -2,6 +2,10 @@
 
 A Hugo module for handling metadata images (gathering from or adding to metadata).
 
+## ARCHIVED
+
+This module is no longer maintained (archived for historical purposes), and will not receive updates, even security updates.
+
 ## Status
 
 [![build-and-verify](https://github.com/danielfdickinson/metadata-image-mod-hugo-dfd/actions/workflows/build-and-verify.yml/badge.svg)](https://github.com/danielfdickinson/metadata-image-mod-hugo-dfd/actions/workflows/build-and-verify.yml)
